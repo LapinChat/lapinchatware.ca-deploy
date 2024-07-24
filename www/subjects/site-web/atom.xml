@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - Site web</title>
+    <link rel="self" type="application/atom+xml" href="https://lapinchatware.ca/subjects/site-web/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://lapinchatware.ca"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-07-30T00:00:00+00:00</updated>
+    <id>https://lapinchatware.ca/subjects/site-web/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>lapinchatware.ca fait peau neuve</title>
+        <published>2024-07-30T00:00:00+00:00</published>
+        <updated>2024-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Pierre Tremblay-Thériault
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://lapinchatware.ca/blog/lapinchatware-ca-fait-peau-neuve/"/>
+        <id>https://lapinchatware.ca/blog/lapinchatware-ca-fait-peau-neuve/</id>
+        
+        <summary type="html">&lt;p&gt;C&#x27;est avec grand plaisir que je mets en ligne mon nouveau site web. Cette refonte majeure ma permis de restructurer
+le contenu, d&#x27;ouvrir un blog, de faire des choix techniques plus judicieux et de permettre l&#x27;accessibilité
+du site à un plus grand nombre.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title> - Site web</title>
+      <link>https://lapinchatware.ca</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>fr</language>
+      <atom:link href="https://lapinchatware.ca/subjects/site-web/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>lapinchatware.ca fait peau neuve</title>
+          <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+          <author>Pierre Tremblay-Thériault</author>
+          <link>https://lapinchatware.ca/blog/lapinchatware-ca-fait-peau-neuve/</link>
+          <guid>https://lapinchatware.ca/blog/lapinchatware-ca-fait-peau-neuve/</guid>
+          <description xml:base="https://lapinchatware.ca/blog/lapinchatware-ca-fait-peau-neuve/">&lt;p&gt;C&#x27;est avec grand plaisir que je mets en ligne mon nouveau site web. Cette refonte majeure ma permis de restructurer
+le contenu, d&#x27;ouvrir un blog, de faire des choix techniques plus judicieux et de permettre l&#x27;accessibilité
+du site à un plus grand nombre.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

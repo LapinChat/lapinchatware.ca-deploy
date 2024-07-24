@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title></title>
+    <link rel="self" type="application/atom+xml" href="https://lapinchatware.ca/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://lapinchatware.ca"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-07-30T00:00:00+00:00</updated>
+    <id>https://lapinchatware.ca/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>lapinchatware.ca fait peau neuve</title>
+        <published>2024-07-30T00:00:00+00:00</published>
+        <updated>2024-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Pierre Tremblay-Thériault
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://lapinchatware.ca/blog/lapinchatware-ca-fait-peau-neuve/"/>
+        <id>https://lapinchatware.ca/blog/lapinchatware-ca-fait-peau-neuve/</id>
+        
+        <summary type="html">&lt;p&gt;C&#x27;est avec grand plaisir que je mets en ligne mon nouveau site web. Cette refonte majeure ma permis de restructurer
+le contenu, d&#x27;ouvrir un blog, de faire des choix techniques plus judicieux et de permettre l&#x27;accessibilité
+du site à un plus grand nombre.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>lapinchatware.ca</title>
+        <published>2024-07-30T00:00:00+00:00</published>
+        <updated>2024-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Pierre Tremblay-Thériault
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://lapinchatware.ca/web/lapinchatware-ca/"/>
+        <id>https://lapinchatware.ca/web/lapinchatware-ca/</id>
+        
+        <content type="html" xml:base="https://lapinchatware.ca/web/lapinchatware-ca/"></content>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Maintenant professionnel de l&#x27;accessibilité</title>
+        <published>2024-07-08T00:00:00+00:00</published>
+        <updated>2024-07-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Pierre Tremblay-Thériault
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://lapinchatware.ca/blog/maintenant-professionnel-de-laccessibilite/"/>
+        <id>https://lapinchatware.ca/blog/maintenant-professionnel-de-laccessibilite/</id>
+        
+        <summary type="html">&lt;p&gt;Après un formation d’une durée de 45 heures, du 21 mars au 25 juin 2024, j&#x27;ai obtenu mon attestion de formation avec une
+note excellente! Cette formation donné par Jean-Marie d&#x27;Amour, formateur au Regroupement des aveugles et amblyopes du
+Montréal métropolitain (RAAMM), portait &lt;q cite=&quot;https:&amp;#x2F;&amp;#x2F;raamm.org&amp;#x2F;services-grand-public&amp;#x2F;accessibilite-numerique&amp;#x2F;formation-sites-web-universellement-accessibles&amp;#x2F;&quot;&gt;notamment [sur] les différentes clientèles de l’accessibilité, les outils
+d’adaptation, les règles d’accessibilité, l’évaluation fonctionnelle et technique de l’accessibilité, la conception de
+documents numériques accessibles et les enjeux d’accessibilité des contenus Web enrichis.&lt;&#x2F;q&gt;&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Morning Rush</title>
+        <published>2024-06-12T00:00:00+00:00</published>
+        <updated>2024-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Pierre Tremblay-Thériault
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://lapinchatware.ca/games/morning-rush/"/>
+        <id>https://lapinchatware.ca/games/morning-rush/</id>
+        
+        <content type="html" xml:base="https://lapinchatware.ca/games/morning-rush/">&lt;p&gt;!!! Morning Rush !!!&lt;&#x2F;p&gt;
+&lt;p&gt;Serve as many breakfasts as you can!
+Become the richest barista in existence!
+Fill the screen with the gratuities of your happy customers!&lt;&#x2F;p&gt;
+&lt;p&gt;Complete breakfast and extend the wait line.
+Failed breakfast shortens the wait line.&lt;&#x2F;p&gt;
+&lt;p&gt;When the wait line is empty you lose... PLAY AGAIN!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Andrée-Anne Giguère - Artiste interdisciplinaire</title>
+        <published>2024-02-01T00:00:00+00:00</published>
+        <updated>2024-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Pierre Tremblay-Thériault
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://lapinchatware.ca/web/aagiguere-ca/"/>
+        <id>https://lapinchatware.ca/web/aagiguere-ca/</id>
+        
+        <content type="html" xml:base="https://lapinchatware.ca/web/aagiguere-ca/"></content>
+        
+    </entry>
+</feed>

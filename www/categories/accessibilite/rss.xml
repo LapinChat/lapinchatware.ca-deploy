@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title> - Accessibilité</title>
+      <link>https://lapinchatware.ca</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>fr</language>
+      <atom:link href="https://lapinchatware.ca/categories/accessibilite/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Maintenant professionnel de l&#x27;accessibilité</title>
+          <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+          <author>Pierre Tremblay-Thériault</author>
+          <link>https://lapinchatware.ca/blog/maintenant-professionnel-de-laccessibilite/</link>
+          <guid>https://lapinchatware.ca/blog/maintenant-professionnel-de-laccessibilite/</guid>
+          <description xml:base="https://lapinchatware.ca/blog/maintenant-professionnel-de-laccessibilite/">&lt;p&gt;Après un formation d’une durée de 45 heures, du 21 mars au 25 juin 2024, j&#x27;ai obtenu mon attestion de formation avec une
+note excellente! Cette formation donné par Jean-Marie d&#x27;Amour, formateur au Regroupement des aveugles et amblyopes du
+Montréal métropolitain (RAAMM), portait &lt;q cite=&quot;https:&amp;#x2F;&amp;#x2F;raamm.org&amp;#x2F;services-grand-public&amp;#x2F;accessibilite-numerique&amp;#x2F;formation-sites-web-universellement-accessibles&amp;#x2F;&quot;&gt;notamment [sur] les différentes clientèles de l’accessibilité, les outils
+d’adaptation, les règles d’accessibilité, l’évaluation fonctionnelle et technique de l’accessibilité, la conception de
+documents numériques accessibles et les enjeux d’accessibilité des contenus Web enrichis.&lt;&#x2F;q&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

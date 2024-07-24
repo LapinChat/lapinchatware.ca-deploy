@@ -1,0 +1,564 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+    <title>Lapinchatware</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" href="/images/favicon.svg">
+    <link rel="stylesheet" href="/css/main.css" />
+
+    
+    
+</head>
+<body class="single_page">
+
+    
+    <header class="header">
+
+    <a class="header__title" href="/">
+        <img
+                class="header__title__image"
+                src="/images/logo-web.svg"
+                alt="Logo de la compagnie illustrant un mélange de chat et de lapin. Nom de la compagnie: Lapinchatware."
+        />
+    </a>
+
+    <nav class="header__quick-links">
+        <ul class="header__links-list">
+            
+            
+                <li class="header__links-list__item">
+                    <a class="header__links-list__link" href="https:&#x2F;&#x2F;lapinchatware.ca&#x2F;web&#x2F;">
+                        <span class="header__link-content">WEB</span>
+                    </a>
+                </li>
+            
+
+            
+            
+                <li class="header__links-list__item">
+                    <a class="header__links-list__link" href="https:&#x2F;&#x2F;lapinchatware.ca&#x2F;games&#x2F;">
+                        <span class="header__link-content">GAMES</span>
+                    </a>
+                </li>
+            
+
+            
+            
+
+            
+            
+
+            
+            
+        </ul>
+    </nav>
+
+    <search class="header__search">
+        <form class="header__search__form" role="search" method="get" action="/search">
+            <label class="header__search__zone">
+                <span class="header__search__label">Search&nbsp;:</span>
+                <input class="header__search__input" name="search" type="search" placeholder="Search" value="">
+            </label>
+            <button class="header__button" type="submit">
+                <img class="header__button-image" src="/images/search-icon.svg" alt="" aria-hidden="true" />
+                <span class="header__search__text sr-only">Rechercher</span>
+            </button>
+        </form>
+    </search>
+
+    <button id="header__button--menu-open" class="header__button header__button--menu">
+        <img class="header__button-image header__button-image--menu" src="/images/autre-icon.svg" alt="" aria-hidden="true"/>
+        <span class="header__button-text sr-only">Menu</span>
+    </button>
+
+    <dialog id="header__menu-modal" class="header__navigation">
+        <a class="header__title header__title--navigation" href="/">
+            <img
+                    class="header__title__image"
+                    src="/images/logo-web.svg"
+                    alt="Logo de la compagnie illustrant un mélange de chat et de lapin. Nom de la compagnie: Lapinchatware."
+            />
+        </a>
+
+        <h1 class="header__text-title">
+            Pierre Tremblay&#x2011;Thériault
+        </h1>
+
+        <h2 class="sr-only">Compétences générales</h2>
+        <ul class="header__modal-meta">
+            <li class="header__modal-meta__item header__modal-meta__item--bold">
+                Programmeur
+            </li>
+            <li class="header__modal-meta__item header__modal-meta__item--bold">
+                Artiste
+            </li>
+            <li class="header__modal-meta__item header__modal-meta__item--bold header__modal-meta__item--bold-last">
+                Formateur
+            </li>
+            <li class="header__modal-meta__item">
+                Gestion
+            </li>
+            <li class="header__modal-meta__item">
+                Électronique
+            </li>
+            <li class="header__modal-meta__item">
+                Numérique
+            </li>
+            <li class="header__modal-meta__item">
+                Informatique
+            </li>
+        </ul>
+
+        <div class="header__navigation__contact">
+            <h2 class="header__navigation__contact-title">
+                Get in touch
+            </h2>
+            <p class="header__navigation__contact-prompt">
+                <a class="header__navigation__contact-prompt__link" href="/contact">C'est par ici.</a>
+            </p>
+        </div>
+
+        <article class="header__navigation__bio">
+            <h2 class="sr-only">Biographie</h2>
+            <div class="header__navigation__picture-id">
+                <img class="header__navigation__bio-image" src="/images/portrait_Patrick_Simard_2016_llr.jpg" alt=""/>
+                <span class="header__navigation__image-credit">Crédit photo: Patrick Simard - 2016</span>
+            </div>
+            <p>
+                L'accord entre art et technologie est pour moi une évidence. Je fais ce pont depuis maintenant plus de
+                dix ans dans le milieu des arts numériques et de la recherche universitaire en art. Je suis donc à la
+                fois un artiste, un créateur d'expérience, un programmeur et un électronicien. J'aime me décrire comme
+                un "ingénieur de rue": un savant fou (mais bien ancré dans la réalité) capable de lier des domaines en
+                apparence incompatible et de construire des solutions efficaces et surprenantes à des problèmes
+                artistiques, techniques et inhabituels.
+            </p>
+            <p>
+                Je mets de l'avant mes capacités d'adaptation et d'innovation ainsi que mon ingéniosité dans tout ce
+                que j'entreprends. Je suis motivé par l'impact positif de mon travail sur les autres ainsi que par les
+                nouveaux défis qui enrichiront mes expériences, me perfectionneront et me permettront d'apprendre. Ces
+                dernières années où ma créativité et mes connaissances approfondies sur les technologies informatiques
+                et électroniques ont été mises au service d'une clientèle variée m'ont permis de devenir excellent dans
+                la résolution de problèmes complexes.
+            </p>
+            <p>
+                Je travaille toujours en équipe. Mon implication dans un projet exige souvent la collaboration avec
+                d'autres professionnels travaillant dans des domaines bien différents de ma spécialité. Ces moments de
+                partage ont toujours été appréciés et même recommandés.
+            </p>
+            <p>
+                J'ai eu l'occasion de gérer bien des projets telle la planification technique du SCAN (Studio Création
+                Art Numérique, UQAC, Saguenay) lors de sa construction où j'ai par la suite assumé le rôle de directeur
+                technique et de technicien. Aussi, en étant professionnel de recherche pour la Chaire de recherche du
+                Canada pour une dramaturgie sonore au théâtre (CRCDST), j'ai initié une recherche sur les scènes
+                numériques en réalité virtuelle.
+            </p>
+            <p>
+                Étant aussi un artiste professionnel, je développe une pratique en art numérique et électronique axée
+                sur la création d'ambiance et l'intégration du spectateur dans un système interactif. J'ai développé ma
+                réflexion sur la place du spectateur dans une oeuvre interactive lors de ma recherche universitaire de
+                maîtrise. J'organise aujourd'hui mes travaux de recherches au sein de la CRCDST autour des
+                environnements virtuels.
+            </p>
+        </article>
+
+        <button id="header__button--menu-close" class="header__button header__button--menu header__button--menu-close">
+            <img class="header__button-image header__button-image--menu header__button-image--menu-close" src="/images/close-icon.svg" alt="" aria-hidden="true"/>
+            <span class="header__button-text sr-only">Close</span>
+        </button>
+    </dialog>
+</header>
+
+
+    
+
+
+    
+        <main class="main">
+            
+    <h1 class="section__main-title">Me contacter</h1>
+    
+        <div class="section__content">
+            <form novalidate class="contact-form" action="https:&#x2F;&#x2F;submit-form.com&#x2F;GATAS4Cmw" method="POST">
+
+    <section class="contact-form__errors contact-form__errors--no-errors" tabindex="-1">
+        <h2 class="contact-form__errors__title">Le formulaire n'a pu être soumis car <span class="contact-form__errors__count">6</span> erreurs ont été trouvées.</h2>
+        <ol class="contact-form__errors__list">
+            <li class="contact-form__errors__list__item contact-form__error-name-required">
+                <a class="contact-form__errors__list__link" href="#name">
+                    <span class="contact-form__errors__list__item__error-notice">Erreur&nbsp;: </span>
+                    Nom - Ce champ est obligatoire.
+                </a>
+            </li>
+            <li class="contact-form__errors__list__item contact-form__error-name-short">
+                <a class="contact-form__errors__list__link" href="#name">
+                    <span class="contact-form__errors__list__item__error-notice">Erreur&nbsp;: </span>
+                    Nom - Ce champ doit contenir au minimum deux caractères.
+                </a>
+            </li>
+            <li class="contact-form__errors__list__item contact-form__error-name-invalid">
+                <a class="contact-form__errors__list__link" href="#name">
+                    <span class="contact-form__errors__list__item__error-notice">Erreur&nbsp;: </span>
+                    Nom - Les caractères admissibles sont des chiffres, des lettres et des traits d'union.
+                </a>
+            </li>
+            <li class="contact-form__errors__list__item contact-form__error-email-required">
+                <a class="contact-form__errors__list__link" href="#email">
+                    <span class="contact-form__errors__list__item__error-notice">Erreur&nbsp;: </span>
+                    Courriel - Ce champ est obligatoire.
+                </a>
+            </li>
+            <li class="contact-form__errors__list__item contact-form__error-email-invalid">
+                <a class="contact-form__errors__list__link" href="#email">
+                    <span class="contact-form__errors__list__item__error-notice">Erreur&nbsp;: </span>
+                    Courriel - Le format de l'adresse est invalide. Il doit ressembler à votre nom@domaine.com .
+                </a>
+            </li>
+            <li class="contact-form__errors__list__item contact-form__error-message-required">
+                <a class="contact-form__errors__list__link" href="#message">
+                    <span class="contact-form__errors__list__item__error-notice">Erreur&nbsp;: </span>
+                    Message - Ce champ est obligatoire.
+                </a>
+            </li>
+        </ol>
+    </section>
+
+    <section class="contact-form__submission-messages contact-form__submission-messages--hidden" tabindex="-1">
+        <span class="contact-form__submission-message contact-form__submission-message--success contact-form__submission-message--hidden">Votre message a bien été envoyé. Merci.</span>
+        <span class="contact-form__submission-message contact-form__submission-message--failed contact-form__submission-message--hidden">Un problème est survenue lors de l'envoie du message. Veuillez réessayer.</span>
+        <span class="contact-form__submission-message contact-form__submission-message--panic contact-form__submission-message--hidden">Une erreur inconnue est survenue. Veuillez rafraîchir la page et réessayer.</span>
+    </section>
+
+    <div class="contact-form__group">
+        <label class="contact-form__label contact-form__label--required" for="name">
+            <span class="contact-form__label--required-notice">* </span>
+            Name
+            <span class="contact-form__label--required-notice">(obligatoire)</span>
+        </label>
+        <span aria-live="polite" class="contact-form__error contact-form__error--no-error contact-form__error-name-required">Ce champ est obligatoire.</span>
+        <span aria-live="polite" class="contact-form__error contact-form__error--no-error contact-form__error-name-short">Ce champ doit contenir au minimum deux caractères.</span>
+        <span aria-live="polite" class="contact-form__error contact-form__error--no-error contact-form__error-name-invalid">Les caractères admissibles sont des chiffres, des lettres et des traits d'union.</span>
+        <input class="contact-form__field contact-form__field--input" id="name" name="name" type="text" minlength="2" pattern="[A-Za-z0-9\-\s]*" required="required" aria-required="true" />
+    </div>
+    <div class="contact-form__group">
+        <label class="contact-form__label contact-form__label--required" for="email">
+            <span class="contact-form__label--required-notice">* </span>
+            Email
+            <span class="contact-form__label--required-notice">(obligatoire)</span>
+        </label>
+        <span aria-live="polite" class="contact-form__error contact-form__error--no-error contact-form__error-email-required">Ce champ est obligatoire.</span>
+        <span aria-live="polite" class="contact-form__error contact-form__error--no-error contact-form__error-email-invalid">Le format de l'adresse est invalide. Il doit ressembler à votre nom@domaine.com .</span>
+        <input class="contact-form__field contact-form__field--input" id="email" name="email" type="email" pattern="^[a-zA-Z0-9.!#$%&'*+\/=?^_`\{\|\}~\-]+@[a-zA-Z0-9](?:[a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?)*$" required  aria-required="true" />
+    </div>
+    <div class="contact-form__group">
+        <label class="contact-form__label contact-form__label--required" for="message">
+            <span class="contact-form__label--required-notice">* </span>
+            Message
+            <span class="contact-form__label--required-notice">(obligatoire)</span>
+        </label>
+        <span aria-live="polite" class="contact-form__error contact-form__error--no-error contact-form__error-message-required">Ce champ est obligatoire.</span>
+        <textarea class="contact-form__field contact-form__field--textarea" id="message" name="message" rows="10" required aria-required="true" ></textarea>
+    </div>
+    <div class="contact-form__controls">
+        <button class="contact-form__button contact-form__button--submit" type="submit">Send</button>
+        <button class="contact-form__button contact-form__button--reset" type="reset">Reset form</button>
+    </div>
+</form>
+
+<script id="botpoisonScript" src="https://unpkg.com/@botpoison/browser" async></script>
+<script>
+    /*
+    Captcha management
+     */
+
+    // Init captcha
+    let botpoison = undefined;
+    let botpoisonScript = document.getElementById("botpoisonScript");
+    botpoisonScript.addEventListener("load", function() {
+        botpoison = new Botpoison({
+            publicKey: "pk_0cdf5d2f-1278-4085-9639-7ef4bf05ec6a",
+        });
+    })
+
+    const form = document.getElementsByClassName("contact-form")[0];
+
+    /*
+    Form Validation
+     */
+    const errorList = document.getElementsByClassName("contact-form__errors")[0];
+    const errorListErrorCount = document.getElementsByClassName("contact-form__errors__count")[0];
+    let totalErrorCount = 0;
+
+    // Name input
+    const name = document.getElementById("name");
+    const nameErrorRequired = document.getElementsByClassName("contact-form__error-name-required");
+    const nameErrorShort = document.getElementsByClassName("contact-form__error-name-short");
+    const nameErrorInvalid = document.getElementsByClassName("contact-form__error-name-invalid");
+    let nameErrorCount = 0;
+    name.addEventListener("focusout", (event) => {
+        validateName();
+        errorListErrorCount.textContent = totalErrorCount;
+        if (totalErrorCount === 0) {
+            errorList.classList.add("contact-form__errors--no-errors");
+        }
+    });
+
+    function validateName() {
+        totalErrorCount -= nameErrorCount;
+        let errorCount = 0;
+
+        if (name.validity.valueMissing) {
+            for (let i = 0; i < nameErrorRequired.length; i++) {
+                nameErrorRequired[i].classList.remove("contact-form__error--no-error");
+            }
+            errorCount++;
+        } else {
+            for (let i = 0; i < nameErrorRequired.length; i++) {
+                nameErrorRequired[i].classList.add("contact-form__error--no-error");
+            }
+        }
+
+        if (name.validity.tooShort) {
+            for (let i = 0; i < nameErrorShort.length; i++) {
+                nameErrorShort[i].classList.remove("contact-form__error--no-error");
+            }
+            errorCount++;
+        } else {
+            for (let i = 0; i < nameErrorShort.length; i++) {
+                nameErrorShort[i].classList.add("contact-form__error--no-error");
+            }
+        }
+
+        if (name.validity.patternMismatch) {
+            for (let i = 0; i < nameErrorInvalid.length; i++) {
+                nameErrorInvalid[i].classList.remove("contact-form__error--no-error");
+            }
+            errorCount++;
+        } else {
+            for (let i = 0; i < nameErrorInvalid.length; i++) {
+                nameErrorInvalid[i].classList.add("contact-form__error--no-error");
+            }
+        }
+
+        nameErrorCount = errorCount;
+        totalErrorCount += nameErrorCount;
+    }
+
+    // Email input
+    const email = document.getElementById("email");
+    const emailErrorRequired = document.getElementsByClassName("contact-form__error-email-required");
+    const emailErrorInvalid = document.getElementsByClassName("contact-form__error-email-invalid");
+    let emailErrorCount = 0;
+    email.addEventListener("focusout", (event) => {
+        validateEmail();
+        errorListErrorCount.textContent = totalErrorCount;
+        if (totalErrorCount === 0) {
+            errorList.classList.add("contact-form__errors--no-errors");
+        }
+    });
+
+    function validateEmail() {
+        totalErrorCount -= emailErrorCount;
+        let errorCount = 0;
+
+        if (email.validity.valueMissing) {
+            for (let i = 0; i < emailErrorRequired.length; i++) {
+                emailErrorRequired[i].classList.remove("contact-form__error--no-error");
+            }
+            errorCount++;
+        } else {
+            for (let i = 0; i < emailErrorRequired.length; i++) {
+                emailErrorRequired[i].classList.add("contact-form__error--no-error");
+            }
+        }
+
+        if (email.validity.patternMismatch) {
+            for (let i = 0; i < emailErrorInvalid.length; i++) {
+                emailErrorInvalid[i].classList.remove("contact-form__error--no-error");
+            }
+            errorCount++;
+        } else {
+            for (let i = 0; i < emailErrorInvalid.length; i++) {
+                emailErrorInvalid[i].classList.add("contact-form__error--no-error");
+            }
+        }
+
+        emailErrorCount = errorCount;
+        totalErrorCount += emailErrorCount;
+    }
+
+    // Message input
+    const message = document.getElementById("message");
+    const messageErrorRequired = document.getElementsByClassName("contact-form__error-message-required");
+    let messageErrorCount = 0;
+    message.addEventListener("focusout", (event) => {
+        validateMessage();
+        errorListErrorCount.textContent = totalErrorCount;
+        if (totalErrorCount === 0) {
+            errorList.classList.add("contact-form__errors--no-errors");
+        }
+    });
+
+    function validateMessage() {
+        totalErrorCount -= messageErrorCount;
+        let errorCount = 0;
+
+        if (message.validity.valueMissing) {
+            for (let i = 0; i < messageErrorRequired.length; i++) {
+                messageErrorRequired[i].classList.remove("contact-form__error--no-error");
+            }
+            errorCount++;
+        } else {
+            for (let i = 0; i < messageErrorRequired.length; i++) {
+                messageErrorRequired[i].classList.add("contact-form__error--no-error");
+            }
+        }
+
+        messageErrorCount = errorCount;
+        totalErrorCount += messageErrorCount;
+    }
+
+    function validateFields() {
+        validateName();
+        validateEmail();
+        validateMessage();
+    }
+
+    // Reset Form
+    const allErrorMessage = document.getElementsByClassName("contact-form__error");
+    form.addEventListener("reset", (event) => {
+        // Hide and reset form error messages
+        nameErrorCount = 0;
+        emailErrorCount = 0;
+        messageErrorCount = 0;
+        totalErrorCount = 0;
+        for (let i = 0; i < allErrorMessage.length; i++) {
+            allErrorMessage[i].classList.add("contact-form__error--no-error");
+        }
+        errorList.classList.add("contact-form__errors--no-errors");
+        errorListErrorCount.textContent = 0;
+
+        // Hide and reset form submission error messages
+        submissionMessages.classList.add("contact-form__submission-messages--hidden");
+        submissionSuccess.classList.add("contact-form__submission-message--hidden");
+        submissionFailed.classList.add("contact-form__submission-message--hidden");
+        submissionPanic.classList.add("contact-form__submission-message--hidden");
+    });
+
+    // Submit Form
+    const submissionMessages = document.getElementsByClassName("contact-form__submission-messages")[0];
+    const submissionSuccess = document.getElementsByClassName("contact-form__submission-message--success")[0];
+    const submissionFailed = document.getElementsByClassName("contact-form__submission-message--failed")[0];
+    const submissionPanic = document.getElementsByClassName("contact-form__submission-message--panic")[0];
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const isFormValid = name.validity.valid && email.validity.valid && message.validity.valid;
+        if (isFormValid) {
+            let formData = new FormData(event.target);
+            if (botpoison === undefined) {
+                console.log("Captcha not loaded yet");
+            } else {
+                botpoison.challenge().then(({ solution }) => {
+                    fetch(event.target.action, {
+                        method: form.method,
+                        headers: {
+                            "Content-Type": "application/json",
+                            Accept: "application/json",
+                        },
+                        body: JSON.stringify({
+                            name: formData.get("name"),
+                            email: formData.get("email"),
+                            message: formData.get("message"),
+                            _botpoison: solution,
+                        }),
+                    }).then(function (response) {
+                        submissionMessages.classList.remove("contact-form__submission-messages--hidden");
+                        if (response.ok) {
+                            submissionSuccess.classList.remove("contact-form__submission-message--hidden");
+                            form.reset();
+                        } else {
+                            submissionFailed.classList.remove("contact-form__submission-message--hidden");
+                        }
+                    }).catch(function(response) {
+                        submissionMessages.classList.remove("contact-form__submission-messages--hidden")
+                        submissionPanic.classList.remove("contact-form__submission-message--hidden");
+                    });
+                });
+            }
+        } else {
+            // Validate form internally
+            form.checkValidity();
+            // Analyse validation results
+            validateFields();
+            // Set and display errors list
+            errorListErrorCount.textContent = totalErrorCount;
+            errorList.classList.remove("contact-form__errors--no-errors");
+        }
+    });
+
+</script>
+        </div>
+    
+
+        </main>
+    
+
+    
+    <section class="footer">
+    <ul class="footer__links">
+        <li class="footer__links__item">
+            <a class="footer__link" href="/atom.xml">
+                <img
+                        class="footer__link__image"
+                        src="/images/atom.svg"
+                        alt="Logo d'un atome"
+                        aria-hidden="true"
+                />
+                <span class="footer__link__text">Atom</span>
+            </a>
+        </li>
+        <li class="footer__links__item">
+            <a class="footer__link" href="/rss.xml">
+                <img
+                        class="footer__link__image"
+                        src="/images/rss.svg"
+                        alt="Logo d'une onde radio"
+                        aria-hidden="true"
+                />
+                <span class="footer__link__text">RSS</span>
+            </a>
+        </li>
+        <li class="footer__links__item">
+            <a class="footer__link" href="/sitemap.xml">
+                <img
+                        class="footer__link__image"
+                        src="/images/sitemap.svg"
+                        alt="Logo d'un schéma"
+                        aria-hidden="true"
+                />
+                <span class="footer__link__text">Carte du site</span>
+            </a>
+        </li>
+        <li class="footer__links__item">
+            <a class="footer__link" href="/legals">
+                <img
+                        class="footer__link__image"
+                        src="/images/scale-balanced.svg"
+                        alt="Logo d'une balance"
+                        aria-hidden="true"
+                />
+                <span class="footer__link__text">Documents légaux</span>
+            </a>
+        </li>
+    </ul>
+    <div class="footer__copyright">
+        &copy; Pierre Tremblay-Thériault
+    </div>
+</section>
+
+    <script type="text/javascript" src="/js/main.js"></script>
+    
+    
+</body>
+</html>
