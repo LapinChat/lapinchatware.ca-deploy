@@ -1,0 +1,783 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+    <title>Lapinchatware</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" href="/images/favicon.svg">
+    <link rel="stylesheet" href="/css/main.css" />
+
+    
+    
+</head>
+<body class="single_page">
+
+    
+	<header class="header">
+
+    <a class="header__title" href="/">
+        <img
+                class="header__title__image"
+                src="/images/logo-web.svg"
+                alt="Logo de la compagnie illustrant un mélange de chat et de lapin. Nom de la compagnie: Lapinchatware."
+        />
+    </a>
+
+    <nav class="header__quick-links">
+        <ul class="header__links-list">
+            
+            
+                <li class="header__links-list__item">
+                    <a class="header__links-list__link" href="https:&#x2F;&#x2F;lapinchatware.ca&#x2F;web&#x2F;">
+                        <span class="header__link-content">WEB</span>
+                    </a>
+                </li>
+            
+
+            
+            
+                <li class="header__links-list__item">
+                    <a class="header__links-list__link" href="https:&#x2F;&#x2F;lapinchatware.ca&#x2F;games&#x2F;">
+                        <span class="header__link-content">JEUX</span>
+                    </a>
+                </li>
+            
+
+            
+            
+
+            
+            
+
+            
+            
+                <li class="header__links-list__item">
+                    <a class="header__links-list__link" href="https:&#x2F;&#x2F;lapinchatware.ca&#x2F;arts&#x2F;">
+                        <span class="header__link-content">ARTS</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+
+    <search class="header__search">
+        <form class="header__search__form" role="search" method="get" action="/search">
+            <label class="header__search__zone">
+                <span class="header__search__label">Recherche&nbsp;:</span>
+                <input class="header__search__input" name="search" type="search" placeholder="Recherche" value="">
+            </label>
+            <button class="header__button" type="submit">
+                <img class="header__button-image" src="/images/search-icon.svg" alt="" aria-hidden="true" />
+                <span class="header__search__text sr-only">Rechercher</span>
+            </button>
+        </form>
+    </search>
+
+    <button id="header__button--menu-open" class="header__button header__button--menu">
+        <img class="header__button-image header__button-image--menu" src="/images/autre-icon.svg" alt="" aria-hidden="true"/>
+        <span class="header__button-text sr-only">Menu</span>
+    </button>
+
+    <dialog id="header__menu-modal" class="header__navigation">
+        <a class="header__title header__title--navigation" href="/">
+            <img
+                    class="header__title__image"
+                    src="/images/logo-web.svg"
+                    alt="Logo de la compagnie illustrant un mélange de chat et de lapin. Nom de la compagnie: Lapinchatware."
+            />
+        </a>
+
+        <h1 class="header__text-title">
+            Pierre Tremblay&#x2011;Thériault
+        </h1>
+
+        <h2 class="sr-only">Compétences générales</h2>
+        <ul class="header__modal-meta">
+            <li class="header__modal-meta__item header__modal-meta__item--bold">
+                Programmeur
+            </li>
+            <li class="header__modal-meta__item header__modal-meta__item--bold">
+                Artiste
+            </li>
+            <li class="header__modal-meta__item header__modal-meta__item--bold header__modal-meta__item--bold-last">
+                Formateur
+            </li>
+            <li class="header__modal-meta__item">
+                Gestion
+            </li>
+            <li class="header__modal-meta__item">
+                Électronique
+            </li>
+            <li class="header__modal-meta__item">
+                Numérique
+            </li>
+            <li class="header__modal-meta__item">
+                Informatique
+            </li>
+        </ul>
+
+        <div class="header__navigation__contact">
+            <h2 class="header__navigation__contact-title">
+                Get in touch
+            </h2>
+            <p class="header__navigation__contact-prompt">
+                <a class="header__navigation__contact-prompt__link" href="/contact">C'est par ici.</a>
+            </p>
+        </div>
+
+        <article class="header__navigation__bio">
+            <h2 class="sr-only">Biographie</h2>
+            <div class="header__navigation__picture-id">
+                <img class="header__navigation__bio-image" src="/images/portrait_Patrick_Simard_2016_llr.jpg" alt=""/>
+                <span class="header__navigation__image-credit">Crédit photo: Patrick Simard - 2016</span>
+            </div>
+            <p>
+                L'accord entre art et technologie est pour moi une évidence. Je fais ce pont depuis maintenant plus de
+                dix ans dans le milieu des arts numériques et de la recherche universitaire en art. Je suis donc à la
+                fois un artiste, un créateur d'expérience, un programmeur et un électronicien. J'aime me décrire comme
+                un "ingénieur de rue": un savant fou (mais bien ancré dans la réalité) capable de lier des domaines en
+                apparence incompatible et de construire des solutions efficaces et surprenantes à des problèmes
+                artistiques, techniques et inhabituels.
+            </p>
+            <p>
+                Je mets de l'avant mes capacités d'adaptation et d'innovation ainsi que mon ingéniosité dans tout ce
+                que j'entreprends. Je suis motivé par l'impact positif de mon travail sur les autres ainsi que par les
+                nouveaux défis qui enrichiront mes expériences, me perfectionneront et me permettront d'apprendre. Ces
+                dernières années où ma créativité et mes connaissances approfondies sur les technologies informatiques
+                et électroniques ont été mises au service d'une clientèle variée m'ont permis de devenir excellent dans
+                la résolution de problèmes complexes.
+            </p>
+            <p>
+                Je travaille toujours en équipe. Mon implication dans un projet exige souvent la collaboration avec
+                d'autres professionnels travaillant dans des domaines bien différents de ma spécialité. Ces moments de
+                partage ont toujours été appréciés et même recommandés.
+            </p>
+            <p>
+                J'ai eu l'occasion de gérer bien des projets telle la planification technique du SCAN (Studio Création
+                Art Numérique, UQAC, Saguenay) lors de sa construction où j'ai par la suite assumé le rôle de directeur
+                technique et de technicien. Aussi, en étant professionnel de recherche pour la Chaire de recherche du
+                Canada pour une dramaturgie sonore au théâtre (CRCDST), j'ai initié une recherche sur les scènes
+                numériques en réalité virtuelle.
+            </p>
+            <p>
+                Étant aussi un artiste professionnel, je développe une pratique en art numérique et électronique axée
+                sur la création d'ambiance et l'intégration du spectateur dans un système interactif. J'ai développé ma
+                réflexion sur la place du spectateur dans une oeuvre interactive lors de ma recherche universitaire de
+                maîtrise. J'organise aujourd'hui mes travaux de recherches au sein de la CRCDST autour des
+                environnements virtuels.
+            </p>
+        </article>
+
+        <button id="header__button--menu-close" class="header__button header__button--menu header__button--menu-close">
+            <img class="header__button-image header__button-image--menu header__button-image--menu-close" src="/images/close-icon.svg" alt="" aria-hidden="true"/>
+            <span class="header__button-text sr-only">Close</span>
+        </button>
+    </dialog>
+</header>
+
+
+    
+
+
+    
+        <main class="main">
+            
+	<article class="page">
+    <header class="page__header">
+        <h1 class="page__header__title page__header__title--solid">
+            Upload ton âme
+        </h1>
+        
+            <img class="page__header__featured-image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;upload_featured_image.jpg" alt="Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacé par un écran. Sur l&#x27;écran on peut lire &#x27;check bin ca l,art&#x27;" />
+        
+    </header>
+    
+    <main class="page__content">
+        <section class="page__content__cartel">
+            
+                <span class="page__content__cartel__medium">Galerie l&#x27;Oeuvre de l&#x27;Autre, Chicoutimi, Canada</span>
+            
+            
+                <span class="page__content__cartel__year">2014</span>
+            
+            
+        </section>
+        <p>Upload ton âme : un projet traitant des technologies et de leur impact sur l’émergence des avatars dans nos sphères
+relationnelles. Cette exposition présente les résultats d’une recherche portant sur le double rôle du témoin au sein
+d’une œuvre interactive : spectateur et élément dynamique et esthétique de l’œuvre. C’est en utilisant le médium
+technologique qu’il est proposé une métaphore mixant réalité et virtualité encourageant l’interaction entre les
+visiteurs. Il est impossible de vivre cette exposition sans s’y intégrer.</p>
+<div id="galleryuploadtoname" class="gallery">
+    
+    <div class="gallery__viewport">
+        <div class="gallery__viewport__images">
+            
+            
+                    
+                    <img id="galleryuploadtonameimage0" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_01.jpg" alt="Des visiteurs sont devant des claviers et écrans d&#x27;ordinateurs. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage1" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_02.jpg" alt="Trois écrans d&#x27;ordinateurs accompagnés d&#x27;un clavier. Les écrans montrent une vue de l&#x27;intérieur de la salle d&#x27;exposition. Divers messages sont affichés sur les écrans. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage2" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_03.jpg" alt="Des visiteurs sont devant des claviers et écrans d&#x27;ordinateurs. Les écrans montrent une vue de l&#x27;intérieur de la salle d&#x27;exposition. Divers messages sont affichés sur les écrans. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;"/>
+                    
+                    
+                    <img id="galleryuploadtonameimage3" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_04.jpg" alt="Affiche de l&#x27;exposition sur un mur. L&#x27;affiche montre les informations concernant l&#x27;exposition ainsi qu&#x27;un appercu de son contenu."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage4" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_05.jpg" alt="Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage5" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_06.jpg" alt="Vue intérieur de la maquette. Huit sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage6" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_07.jpg" alt="Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;check bin ca l,art&#x27;"/>
+                    
+                    
+                    <img id="galleryuploadtonameimage7" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_08.jpg" alt="Vue intérieur de la maquette. Quatre sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage8" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_09.jpg" alt="Vue intérieur de la maquette. Huit sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage9" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_10.jpg" alt="Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;moii je peux remettre mon bras&#x27;"/>
+                    
+                    
+                    <img id="galleryuploadtonameimage10" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_11.jpg" alt="Vue intérieur de la maquette. Quatre sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage11" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_12.jpg" alt="Sculpture vu de dos, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. On ne voit pas sur ce qu&#x27;il ya sur l&#x27;écran."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage12" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_13.jpg" alt="Vue intérieur de la maquette. Trois sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage13" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_14.jpg" alt="Vue intérieur de la maquette. Neuf sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage14" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_15.jpg" alt="Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;check bin ca l,art&#x27;"/>
+                    
+                    
+                    <img id="galleryuploadtonameimage15" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_16.jpg" alt="Vue intérieur de la maquette. Deux sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    
+                    
+                    <img id="galleryuploadtonameimage16" class="gallery__viewport__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_17.jpg" alt="Sculpture vu de dos, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. On ne voit pas sur ce qu&#x27;il ya sur l&#x27;écran."/>
+                    
+        </div>
+        <div class="gallery__viewport__controls">
+            <img class="gallery__viewport__controls__nav-button gallery__viewport__controls__nav-button--left" src="/images/angle-left.svg" alt="Voir l'image précédente." aria-hidden="true"/>
+            <img class="gallery__viewport__controls__nav-button gallery__viewport__controls__nav-button--right" src="/images/angle-right.svg" alt="Voir l'image suivante." aria-hidden="true"/>
+            <img class="gallery__viewport__controls__nav-close-btn" src="/images/close-icon.svg" alt="Fermer la gallery"/>
+        </div>
+    </div>
+    <ul class="gallery__selector">
+        
+        
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage0"
+                            aria-label="Voir l'image &quot;Des visiteurs sont devant des claviers et écrans d&#x27;ordinateurs. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_01.jpg" alt="Des visiteurs sont devant des claviers et écrans d&#x27;ordinateurs. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage1"
+                            aria-label="Voir l'image &quot;Trois écrans d&#x27;ordinateurs accompagnés d&#x27;un clavier. Les écrans montrent une vue de l&#x27;intérieur de la salle d&#x27;exposition. Divers messages sont affichés sur les écrans. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_02.jpg" alt="Trois écrans d&#x27;ordinateurs accompagnés d&#x27;un clavier. Les écrans montrent une vue de l&#x27;intérieur de la salle d&#x27;exposition. Divers messages sont affichés sur les écrans. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage2"
+                            aria-label="Voir l'image &quot;Des visiteurs sont devant des claviers et écrans d&#x27;ordinateurs. Les écrans montrent une vue de l&#x27;intérieur de la salle d&#x27;exposition. Divers messages sont affichés sur les écrans. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_03.jpg" alt="Des visiteurs sont devant des claviers et écrans d&#x27;ordinateurs. Les écrans montrent une vue de l&#x27;intérieur de la salle d&#x27;exposition. Divers messages sont affichés sur les écrans. Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;"/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage3"
+                            aria-label="Voir l'image &quot;Affiche de l&#x27;exposition sur un mur. L&#x27;affiche montre les informations concernant l&#x27;exposition ainsi qu&#x27;un appercu de son contenu.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_04.jpg" alt="Affiche de l&#x27;exposition sur un mur. L&#x27;affiche montre les informations concernant l&#x27;exposition ainsi qu&#x27;un appercu de son contenu."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage4"
+                            aria-label="Voir l'image &quot;Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_05.jpg" alt="Sur le mur du fond on peut lire le titre de l&#x27;exposition, &#x27;Upload ton âme&#x27;, et le nom de l&#x27;artiste, &#x27;Pierre Tremblay-Thériault&#x27;."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage5"
+                            aria-label="Voir l'image &quot;Vue intérieur de la maquette. Huit sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_06.jpg" alt="Vue intérieur de la maquette. Huit sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage6"
+                            aria-label="Voir l'image &quot;Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;check bin ca l,art&#x27;&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_07.jpg" alt="Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;check bin ca l,art&#x27;"/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage7"
+                            aria-label="Voir l'image &quot;Vue intérieur de la maquette. Quatre sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_08.jpg" alt="Vue intérieur de la maquette. Quatre sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage8"
+                            aria-label="Voir l'image &quot;Vue intérieur de la maquette. Huit sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_09.jpg" alt="Vue intérieur de la maquette. Huit sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage9"
+                            aria-label="Voir l'image &quot;Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;moii je peux remettre mon bras&#x27;&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_10.jpg" alt="Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;moii je peux remettre mon bras&#x27;"/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage10"
+                            aria-label="Voir l'image &quot;Vue intérieur de la maquette. Quatre sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_11.jpg" alt="Vue intérieur de la maquette. Quatre sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage11"
+                            aria-label="Voir l'image &quot;Sculpture vu de dos, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. On ne voit pas sur ce qu&#x27;il ya sur l&#x27;écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_12.jpg" alt="Sculpture vu de dos, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. On ne voit pas sur ce qu&#x27;il ya sur l&#x27;écran."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage12"
+                            aria-label="Voir l'image &quot;Vue intérieur de la maquette. Trois sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_13.jpg" alt="Vue intérieur de la maquette. Trois sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage13"
+                            aria-label="Voir l'image &quot;Vue intérieur de la maquette. Neuf sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_14.jpg" alt="Vue intérieur de la maquette. Neuf sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage14"
+                            aria-label="Voir l'image &quot;Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;check bin ca l,art&#x27;&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_15.jpg" alt="Sculpture, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. Sur l&#x27;écran on peut lire &#x27;check bin ca l,art&#x27;"/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage15"
+                            aria-label="Voir l'image &quot;Vue intérieur de la maquette. Deux sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_16.jpg" alt="Vue intérieur de la maquette. Deux sculptures, des impressions 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Leur tête sont remplacées par un écran."/>
+                    </button>
+                </li>
+                
+                
+                <li class="gallery__selector__item">
+                    <button
+                            class="gallery__selector__button"
+                            aria-expanded="false"
+                            aria-controls="galleryuploadtonameimage16"
+                            aria-label="Voir l'image &quot;Sculpture vu de dos, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. On ne voit pas sur ce qu&#x27;il ya sur l&#x27;écran.&quot;"
+                            type="button"
+                    >
+                        <img class="gallery__selector__image" src="&#x2F;arts&#x2F;upload-ton-ame&#x2F;gallery&#x2F;upload_17.jpg" alt="Sculpture vu de dos, une impression 3D d&#x27;un mannequin de dessin tenant un verre de vin à la main. Sa tête est remplacée par un écran. On ne voit pas sur ce qu&#x27;il ya sur l&#x27;écran."/>
+                    </button>
+                </li>
+                
+    </ul>
+</div>
+<script>
+    // Define
+    // function hideDisplayedImage(galleryId, image)
+    if (typeof globalThis.hideDisplayedImage === "undefined") {
+        globalThis.hideDisplayedImage = function(galleryId, image) {
+            const fullscreenImageContainer = document.querySelector("#" + galleryId + " .gallery__viewport");
+            fullscreenImageContainer.classList.remove("gallery__viewport--display");
+            image.classList.remove("gallery__viewport__image--display");
+            const selector = '[aria-controls="' + image.getAttribute("id") + '"]'
+            const controlsButton = document.querySelector(selector);
+            controlsButton.setAttribute("aria-expanded", "false");
+        }
+    }
+
+    // Define
+    // function displayImageWithButton(galleryId, button)
+    if (typeof globalThis.displayImageWithButton === "undefined") {
+        globalThis.displayImageWithButton = function(galleryId, button) {
+            button.focus();
+            const fullscreenImageContainer = document.querySelector("#" + galleryId + " .gallery__viewport");
+            fullscreenImageContainer.classList.add("gallery__viewport--display");
+            const ariaControlsId = button.getAttribute("aria-controls");
+            const controlledElement = document.getElementById(ariaControlsId);
+            controlledElement.classList.add("gallery__viewport__image--display");
+            button.setAttribute("aria-expanded", "true");
+        }
+    }
+
+    // Define
+    // function displayImageWithControlledElement(galleryId, button)
+    if (typeof globalThis.displayImageWithControlledElement === "undefined") {
+        globalThis.displayImageWithControlledElement = function(galleryId, controlledElement) {
+            const selector = '[aria-controls="' + controlledElement.getAttribute("id") + '"]'
+            const controlsButton = document.querySelector(selector);
+            displayImageWithButton(galleryId, controlsButton);
+        }
+    }
+
+    // Define
+    // function checkSwipeDirection(touchstartX, touchendX)
+    if (typeof globalThis.checkSwipeDirection === "undefined") {
+        globalThis.checkSwipeDirection =  function(touchstartX, touchendX) {
+            if (touchendX < touchstartX) {
+                return "left";
+            } else if (touchendX > touchstartX) {
+                return "right";
+            } else {
+                return "";
+            }
+        }
+    }
+
+    // Define
+    // function displayNextImage()
+    if (typeof globalThis.displayNextImage === "undefined") {
+        globalThis.displayNextImage = function() {
+            const controlledElement = document.getElementsByClassName("gallery__viewport__image--display")[0];
+            if (controlledElement !== undefined) {
+                hideDisplayedImage("galleryuploadtoname", controlledElement);
+
+                let newControlledElement = controlledElement.nextElementSibling;
+                if (newControlledElement === null) {
+                    newControlledElement = controlledElement.parentElement.firstElementChild;
+                }
+
+                if (newControlledElement !== null && newControlledElement !== undefined) {
+                    displayImageWithControlledElement("galleryuploadtoname", newControlledElement);
+                }
+            }
+        }
+    }
+
+    // Define
+    // function displayPreviousImage()
+    if (typeof globalThis.displayPreviousImage === "undefined") {
+        globalThis.displayPreviousImage = function () {
+            const controlledElement = document.getElementsByClassName("gallery__viewport__image--display")[0];
+            if (controlledElement !== undefined) {
+                hideDisplayedImage("galleryuploadtoname", controlledElement);
+
+                let newControlledElement = controlledElement.previousElementSibling;
+                if (newControlledElement === null) {
+                    newControlledElement = controlledElement.parentElement.lastElementChild;
+                }
+
+                if (newControlledElement !== null && newControlledElement !== undefined) {
+                    displayImageWithControlledElement("galleryuploadtoname", newControlledElement);
+                }
+            }
+        }
+    }
+
+    // Init
+    // Gallery Buttons
+    const galleryButtonsgalleryuploadtoname = document.querySelectorAll("#galleryuploadtoname .gallery__selector__button");
+    for (let i = 0; i < galleryButtonsgalleryuploadtoname.length; i++) {
+
+        // Click
+        galleryButtonsgalleryuploadtoname[i].addEventListener("click", function(event) {
+            displayImageWithButton("galleryuploadtoname", this);
+        });
+
+        // Focus In
+        galleryButtonsgalleryuploadtoname[i].addEventListener('focusin', function(event) {
+            const previousFocusableItem = event.relatedTarget;
+            const displayedImages = document.getElementsByClassName("gallery__viewport__image--display");
+            if (
+                (previousFocusableItem === null || !previousFocusableItem.classList.contains("gallery__selector__button"))
+                && displayedImages.length > 0
+            ) {
+                // Hide all displayed images
+                const displayedImages = document.getElementsByClassName("gallery__viewport__image--display");
+                if (displayedImages.length > 0) {
+                    for (let i = 0; i < displayedImages.length; i++) {
+                        hideDisplayedImage("galleryuploadtoname", displayedImages[i]);
+                    }
+                }
+                displayImageWithButton("galleryuploadtoname", this);
+            }
+        });
+
+        // Focus Out
+        galleryButtonsgalleryuploadtoname[i].addEventListener('focusout', function(event) {
+            // Prevent focus out actions if it's a click on a gallery viewport element.
+            const eventOriginClassList = event.explicitOriginalTarget.classList;
+            if (
+                eventOriginClassList.contains("gallery__viewport__image")
+                || eventOriginClassList.contains("gallery__viewport__controls")
+                || eventOriginClassList.contains("gallery__viewport__controls__nav-button")
+                || eventOriginClassList.contains("gallery__viewport")
+            ) {
+                return;
+            }
+
+            // Hide all displayed images
+            const displayedImages = document.getElementsByClassName("gallery__viewport__image--display");
+            if (displayedImages.length > 0) {
+                for (let i = 0; i < displayedImages.length; i++) {
+                    hideDisplayedImage("galleryuploadtoname", displayedImages[i]);
+                }
+                const nextFocusableItem = event.relatedTarget;
+                if (nextFocusableItem != null && nextFocusableItem.classList.contains("gallery__selector__button")) {
+                    displayImageWithButton("galleryuploadtoname", nextFocusableItem);
+                }
+            }
+        });
+    }
+
+    // Previous Buttons
+    // Click
+    const previousImageButtongalleryuploadtoname = document.querySelector("#galleryuploadtoname .gallery__viewport__controls__nav-button--left");
+    previousImageButtongalleryuploadtoname.addEventListener('click', function(event) {
+        displayPreviousImage();
+    });
+
+    // Next Buttons
+    // Click
+    const nextImageButtongalleryuploadtoname = document.querySelector("#galleryuploadtoname .gallery__viewport__controls__nav-button--right");
+    nextImageButtongalleryuploadtoname.addEventListener('click', function(event) {
+        displayNextImage();
+    });
+
+    // Keyboard Controls
+    document.addEventListener('keydown', (event) => {
+        const controlledElement = document.getElementsByClassName("gallery__viewport__image--display")[0];
+        if (controlledElement !== undefined) {
+
+            // Hide image
+            // ESC, LEFT, RIGHT
+            if (event.code === 'Escape' || event.code === 'ArrowLeft' || event.code === 'ArrowRight') {
+                hideDisplayedImage("galleryuploadtoname", controlledElement);
+            }
+
+            let newControlledElement;
+
+            // Select new controlled element(image)
+            // LEFT
+            if (event.code === 'ArrowLeft') {
+                newControlledElement = controlledElement.previousElementSibling;
+                if (newControlledElement === null) {
+                    newControlledElement = controlledElement.parentElement.lastElementChild;
+                }
+            }
+            // RIGHT
+            if (event.code === 'ArrowRight') {
+                newControlledElement = controlledElement.nextElementSibling;
+                if (newControlledElement === null) {
+                    newControlledElement = controlledElement.parentElement.firstElementChild;
+                }
+            }
+
+            // Active button and display image
+            if (newControlledElement !== null && newControlledElement !== undefined) {
+                displayImageWithControlledElement("galleryuploadtoname", newControlledElement);
+            }
+        }
+    })
+
+    // Touch Gesture
+    let touchstartXgalleryuploadtoname = 0;
+    let touchendXgalleryuploadtoname = 0;
+
+    const galleryViewportgalleryuploadtoname = document.getElementsByClassName("gallery__viewport")[0];
+    if (galleryViewportgalleryuploadtoname !== undefined) {
+
+        galleryViewportgalleryuploadtoname.addEventListener('touchstart', function(event) {
+            touchstartXgalleryuploadtoname = event.changedTouches[0].screenX
+        });
+
+        galleryViewportgalleryuploadtoname.addEventListener('touchend', function(event) {
+            touchendXgalleryuploadtoname = event.changedTouches[0].screenX
+            const direction = checkSwipeDirection(touchstartXgalleryuploadtoname, touchendXgalleryuploadtoname);
+            if (direction === "left") {
+                displayPreviousImage();
+            } else if (direction === "right") {
+                displayNextImage();
+            }
+        })
+    }
+</script>
+    </main>
+</article>
+
+        </main>
+    
+
+    
+	<section class="footer">
+    <ul class="footer__links">
+        <li class="footer__links__item">
+            <a class="footer__link" href="/atom.xml">
+                <img
+                        class="footer__link__image"
+                        src="/images/atom.svg"
+                        alt="Logo d'un atome"
+                        aria-hidden="true"
+                />
+                <span class="footer__link__text">Atom</span>
+            </a>
+        </li>
+        <li class="footer__links__item">
+            <a class="footer__link" href="/rss.xml">
+                <img
+                        class="footer__link__image"
+                        src="/images/rss.svg"
+                        alt="Logo d'une onde radio"
+                        aria-hidden="true"
+                />
+                <span class="footer__link__text">RSS</span>
+            </a>
+        </li>
+        <li class="footer__links__item">
+            <a class="footer__link" href="/sitemap.xml">
+                <img
+                        class="footer__link__image"
+                        src="/images/sitemap.svg"
+                        alt="Logo d'un schéma"
+                        aria-hidden="true"
+                />
+                <span class="footer__link__text">Carte du site</span>
+            </a>
+        </li>
+        <li class="footer__links__item">
+            <a class="footer__link" href="/legals">
+                <img
+                        class="footer__link__image"
+                        src="/images/scale-balanced.svg"
+                        alt="Logo d'une balance"
+                        aria-hidden="true"
+                />
+                <span class="footer__link__text">Documents légaux</span>
+            </a>
+        </li>
+    </ul>
+    <div class="footer__copyright">
+        &copy; Pierre Tremblay-Thériault
+    </div>
+</section>
+
+    <script type="text/javascript" src="/js/main.js"></script>
+    
+    
+</body>
+</html>

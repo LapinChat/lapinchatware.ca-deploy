@@ -126,10 +126,15 @@ function makeTeaser(body, terms, searchTermTagStart, searchTermTagEnd) {
 }
 
 const main = document.getElementsByClassName("main")[0];
+const titleTermSpan = document.getElementsByClassName("section__main-title__search-terms")[0];
 const resultsCountSpan = document.getElementsByClassName("section__other_title__result-count")[0];
 async function search(searchTerm, maxItems) {
     const term = searchTerm.trim();
+
+    titleTermSpan.innerHTML = term;
+
     if (term === "") {
+        resultsCountSpan.innerHTML = 0;
         return;
     }
 
@@ -149,7 +154,10 @@ async function search(searchTerm, maxItems) {
         item.classList.add("search-results__item");
         const href = results[i].ref;
         const title = results[i].doc.title;
-        const rawBody = results[i].doc.body;
+        let rawBody = results[i].doc.body;
+        if (rawBody === undefined) {
+            rawBody = "";
+        }
 
         const parsedBody = makeTeaser(
             rawBody,
