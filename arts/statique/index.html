@@ -379,6 +379,7 @@
                 eventOriginClassList.contains("gallery__viewport__image")
                 || eventOriginClassList.contains("gallery__viewport__controls")
                 || eventOriginClassList.contains("gallery__viewport__controls__nav-button")
+                || eventOriginClassList.contains("gallery__viewport__controls__nav-close-btn")
                 || eventOriginClassList.contains("gallery__viewport")
             ) {
                 return;
@@ -398,18 +399,28 @@
         });
     }
 
-    // Previous Buttons
+    // Previous Button
     // Click
     const previousImageButtongallerystatique = document.querySelector("#gallerystatique .gallery__viewport__controls__nav-button--left");
     previousImageButtongallerystatique.addEventListener('click', function(event) {
         displayPreviousImage();
     });
 
-    // Next Buttons
+    // Next Button
     // Click
     const nextImageButtongallerystatique = document.querySelector("#gallerystatique .gallery__viewport__controls__nav-button--right");
     nextImageButtongallerystatique.addEventListener('click', function(event) {
         displayNextImage();
+    });
+
+    // Close Button
+    // Click
+    const closeImageButtongallerystatique = document.querySelector("#gallerystatique .gallery__viewport__controls__nav-close-btn");
+    closeImageButtongallerystatique.addEventListener('click', function(event) {
+        const controlledElement = document.getElementsByClassName("gallery__viewport__image--display")[0];
+        if (controlledElement !== undefined) {
+            hideDisplayedImage("gallerystatique", controlledElement);
+        }
     });
 
     // Keyboard Controls

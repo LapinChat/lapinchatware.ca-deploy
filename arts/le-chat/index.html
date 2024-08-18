@@ -383,6 +383,7 @@ Aérosol acrylique sur planche de gypse <br />
                 eventOriginClassList.contains("gallery__viewport__image")
                 || eventOriginClassList.contains("gallery__viewport__controls")
                 || eventOriginClassList.contains("gallery__viewport__controls__nav-button")
+                || eventOriginClassList.contains("gallery__viewport__controls__nav-close-btn")
                 || eventOriginClassList.contains("gallery__viewport")
             ) {
                 return;
@@ -402,18 +403,28 @@ Aérosol acrylique sur planche de gypse <br />
         });
     }
 
-    // Previous Buttons
+    // Previous Button
     // Click
     const previousImageButtongallerylechat = document.querySelector("#gallerylechat .gallery__viewport__controls__nav-button--left");
     previousImageButtongallerylechat.addEventListener('click', function(event) {
         displayPreviousImage();
     });
 
-    // Next Buttons
+    // Next Button
     // Click
     const nextImageButtongallerylechat = document.querySelector("#gallerylechat .gallery__viewport__controls__nav-button--right");
     nextImageButtongallerylechat.addEventListener('click', function(event) {
         displayNextImage();
+    });
+
+    // Close Button
+    // Click
+    const closeImageButtongallerylechat = document.querySelector("#gallerylechat .gallery__viewport__controls__nav-close-btn");
+    closeImageButtongallerylechat.addEventListener('click', function(event) {
+        const controlledElement = document.getElementsByClassName("gallery__viewport__image--display")[0];
+        if (controlledElement !== undefined) {
+            hideDisplayedImage("gallerylechat", controlledElement);
+        }
     });
 
     // Keyboard Controls

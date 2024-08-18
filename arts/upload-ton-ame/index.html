@@ -626,6 +626,7 @@ visiteurs. Il est impossible de vivre cette exposition sans s’y intégrer.</p>
                 eventOriginClassList.contains("gallery__viewport__image")
                 || eventOriginClassList.contains("gallery__viewport__controls")
                 || eventOriginClassList.contains("gallery__viewport__controls__nav-button")
+                || eventOriginClassList.contains("gallery__viewport__controls__nav-close-btn")
                 || eventOriginClassList.contains("gallery__viewport")
             ) {
                 return;
@@ -645,18 +646,28 @@ visiteurs. Il est impossible de vivre cette exposition sans s’y intégrer.</p>
         });
     }
 
-    // Previous Buttons
+    // Previous Button
     // Click
     const previousImageButtongalleryuploadtoname = document.querySelector("#galleryuploadtoname .gallery__viewport__controls__nav-button--left");
     previousImageButtongalleryuploadtoname.addEventListener('click', function(event) {
         displayPreviousImage();
     });
 
-    // Next Buttons
+    // Next Button
     // Click
     const nextImageButtongalleryuploadtoname = document.querySelector("#galleryuploadtoname .gallery__viewport__controls__nav-button--right");
     nextImageButtongalleryuploadtoname.addEventListener('click', function(event) {
         displayNextImage();
+    });
+
+    // Close Button
+    // Click
+    const closeImageButtongalleryuploadtoname = document.querySelector("#galleryuploadtoname .gallery__viewport__controls__nav-close-btn");
+    closeImageButtongalleryuploadtoname.addEventListener('click', function(event) {
+        const controlledElement = document.getElementsByClassName("gallery__viewport__image--display")[0];
+        if (controlledElement !== undefined) {
+            hideDisplayedImage("galleryuploadtoname", controlledElement);
+        }
     });
 
     // Keyboard Controls

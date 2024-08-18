@@ -462,6 +462,7 @@
                 eventOriginClassList.contains("gallery__viewport__image")
                 || eventOriginClassList.contains("gallery__viewport__controls")
                 || eventOriginClassList.contains("gallery__viewport__controls__nav-button")
+                || eventOriginClassList.contains("gallery__viewport__controls__nav-close-btn")
                 || eventOriginClassList.contains("gallery__viewport")
             ) {
                 return;
@@ -481,18 +482,28 @@
         });
     }
 
-    // Previous Buttons
+    // Previous Button
     // Click
     const previousImageButtongalleryouiouijesuisloeuvre = document.querySelector("#galleryouiouijesuisloeuvre .gallery__viewport__controls__nav-button--left");
     previousImageButtongalleryouiouijesuisloeuvre.addEventListener('click', function(event) {
         displayPreviousImage();
     });
 
-    // Next Buttons
+    // Next Button
     // Click
     const nextImageButtongalleryouiouijesuisloeuvre = document.querySelector("#galleryouiouijesuisloeuvre .gallery__viewport__controls__nav-button--right");
     nextImageButtongalleryouiouijesuisloeuvre.addEventListener('click', function(event) {
         displayNextImage();
+    });
+
+    // Close Button
+    // Click
+    const closeImageButtongalleryouiouijesuisloeuvre = document.querySelector("#galleryouiouijesuisloeuvre .gallery__viewport__controls__nav-close-btn");
+    closeImageButtongalleryouiouijesuisloeuvre.addEventListener('click', function(event) {
+        const controlledElement = document.getElementsByClassName("gallery__viewport__image--display")[0];
+        if (controlledElement !== undefined) {
+            hideDisplayedImage("galleryouiouijesuisloeuvre", controlledElement);
+        }
     });
 
     // Keyboard Controls

@@ -605,6 +605,7 @@ Constanza Camelo</p>
                 eventOriginClassList.contains("gallery__viewport__image")
                 || eventOriginClassList.contains("gallery__viewport__controls")
                 || eventOriginClassList.contains("gallery__viewport__controls__nav-button")
+                || eventOriginClassList.contains("gallery__viewport__controls__nav-close-btn")
                 || eventOriginClassList.contains("gallery__viewport")
             ) {
                 return;
@@ -624,18 +625,28 @@ Constanza Camelo</p>
         });
     }
 
-    // Previous Buttons
+    // Previous Button
     // Click
     const previousImageButtongalleryleuleu = document.querySelector("#galleryleuleu .gallery__viewport__controls__nav-button--left");
     previousImageButtongalleryleuleu.addEventListener('click', function(event) {
         displayPreviousImage();
     });
 
-    // Next Buttons
+    // Next Button
     // Click
     const nextImageButtongalleryleuleu = document.querySelector("#galleryleuleu .gallery__viewport__controls__nav-button--right");
     nextImageButtongalleryleuleu.addEventListener('click', function(event) {
         displayNextImage();
+    });
+
+    // Close Button
+    // Click
+    const closeImageButtongalleryleuleu = document.querySelector("#galleryleuleu .gallery__viewport__controls__nav-close-btn");
+    closeImageButtongalleryleuleu.addEventListener('click', function(event) {
+        const controlledElement = document.getElementsByClassName("gallery__viewport__image--display")[0];
+        if (controlledElement !== undefined) {
+            hideDisplayedImage("galleryleuleu", controlledElement);
+        }
     });
 
     // Keyboard Controls
