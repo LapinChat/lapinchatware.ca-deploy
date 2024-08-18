@@ -466,7 +466,12 @@
             } else if (direction === "right") {
                 displayNextImage();
             }
-        })
+        });
+
+        galleryViewportgallerynuiturbaineelectro.addEventListner('touchmove', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
     }
 </script>
     </main>

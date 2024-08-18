@@ -529,7 +529,12 @@
             } else if (direction === "right") {
                 displayNextImage();
             }
-        })
+        });
+
+        galleryViewportgallerytumeplais.addEventListner('touchmove', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
     }
 </script>
     </main>

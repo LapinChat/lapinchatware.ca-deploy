@@ -554,7 +554,12 @@
             } else if (direction === "right") {
                 displayNextImage();
             }
-        })
+        });
+
+        galleryViewportgallerytouchemoipas.addEventListner('touchmove', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
     }
 </script>
     </main>

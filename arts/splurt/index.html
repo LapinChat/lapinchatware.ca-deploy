@@ -466,7 +466,12 @@ Aérosol acrylique sur la rue <br />
             } else if (direction === "right") {
                 displayNextImage();
             }
-        })
+        });
+
+        galleryViewportgallerysplurt.addEventListner('touchmove', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
     }
 </script>
     </main>

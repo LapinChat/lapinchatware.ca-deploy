@@ -1297,7 +1297,12 @@ Pierre Tremblay-Thériault</p>
             } else if (direction === "right") {
                 displayNextImage();
             }
-        })
+        });
+
+        galleryViewportgallerybinomes.addEventListner('touchmove', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
     }
 </script>
     </main>

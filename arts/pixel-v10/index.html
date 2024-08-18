@@ -465,7 +465,12 @@ Cadre en bois, plexiglass, électronique, arduino, caméra web, ordinateur <br /
             } else if (direction === "right") {
                 displayNextImage();
             }
-        })
+        });
+
+        galleryViewportgallerypixelv10.addEventListner('touchmove', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
     }
 </script>
     </main>

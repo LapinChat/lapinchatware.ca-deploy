@@ -725,7 +725,12 @@ visiteurs. Il est impossible de vivre cette exposition sans s’y intégrer.</p>
             } else if (direction === "right") {
                 displayNextImage();
             }
-        })
+        });
+
+        galleryViewportgalleryuploadtoname.addEventListner('touchmove', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
     }
 </script>
     </main>
