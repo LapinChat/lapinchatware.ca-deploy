@@ -166,7 +166,7 @@ async function search(searchTerm, maxItems) {
             "</span>"
         );
 
-        item.innerHTML = `<h3 class="search-results__item__title"><a class="search-results__item__link" href="${href}">${title}</a></h3>`
+        item.innerHTML = `<h3 class="search-results__item__title"><a class="search-results__item__link link" href="${href}">${title}</a></h3>`
             + `<p class="search-results__item__content">${parsedBody}</p>`;
         list.append(item);
     }
